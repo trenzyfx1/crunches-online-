@@ -1,14 +1,6 @@
 body {
-    width: 100%;
-    margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    height: 100vh;
-    /* color: #fff; */
-    /* font-family: 'Space Grotesk', sans-serif; */
-    transition: background-color 0.3s, color 0.3s;
-    scroll-behavior: smooth;
-    /* background-color: #0a0a0a; */
+    margin: 0;
 }
 
 header {
@@ -79,13 +71,13 @@ nav {
     transition: transform 0.3s ease;
 }
 
-a:hover {
+ a:hover {
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 
-.mobile-header li:hover {
+ .mobile-header li:hover {
     transform: scale(1.02);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
@@ -358,7 +350,6 @@ button:hover {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .section4 {
@@ -399,10 +390,6 @@ button:hover {
 
 .section5-img {
     height: 400px;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    border-radius: 12px;
 }
 
 .section5 {
@@ -606,20 +593,14 @@ footer a {
 }
 
 @media(max-width:768px) {
-
-    .full-body {
-        max-width: 100%;
-    }
-
     .desktop-header {
         display: none;
     }
 
     .mobile-header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
-        width: 100%;
     }
 
     .mobile-header .nav1 {
@@ -640,7 +621,7 @@ footer a {
         gap: 10px;
     }
 
-    .mobile-header .order-now1 {
+     .mobile-header .order-now1 {
         display: flex;
         justify-content: center;
     }
@@ -656,7 +637,7 @@ footer a {
     }
 
     .phone1 {
-        margin-top: 150px;
+       margin-top: 150px; 
     }
 
     .section3 .h1-1 {
@@ -694,11 +675,17 @@ footer a {
         right: 7px;
     }
 
+
+
 }
+
+
 
 @media(max-width:480px) {
 
     .full-body {
+        margin: 0;
+        padding: 0;
         max-width: 100%;
     }
 
@@ -709,7 +696,7 @@ footer a {
 
     .mobile-header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -717,7 +704,7 @@ footer a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        /* gap: 150px; */
+        gap: 150px;
     }
 
     .menu-icon {
@@ -743,12 +730,7 @@ footer a {
     }
 
     .mobile-header .order-now1 {
-        margin-right: 10px;
-    }
-
-
-    .section1 h1 {
-        font-size: 15vw !important;
+       margin-right: 10px;
     }
 
 
@@ -771,10 +753,6 @@ footer a {
         margin-left: 30px;
     }
 
-    .button1 {
-        flex-wrap: wrap;
-    }
-
     .discover .h1 {
         font-size: 40px;
     }
@@ -784,7 +762,7 @@ footer a {
     }
 
     .phone1 {
-        display: none;
+        margin: 0;
     }
 
     .phone {
@@ -812,15 +790,6 @@ footer a {
         display: flex;
     }
 
-    .email {
-        display: none;
-    }
-
-    .food-section, .food-section img {
-        width: 100%;
-        display: block;
-        object-fit: cover;
-    }
 
 
     .section4 {
@@ -852,3 +821,5 @@ footer a {
         margin-left: 30px;
     }
 }
+
+

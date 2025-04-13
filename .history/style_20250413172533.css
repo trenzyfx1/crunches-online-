@@ -784,7 +784,7 @@ footer a {
     }
 
     .phone1 {
-        display: none;
+        margin: 0;
     }
 
     .phone {

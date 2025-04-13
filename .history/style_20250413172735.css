@@ -771,8 +771,10 @@ footer a {
         margin-left: 30px;
     }
 
-    .button1 {
-        flex-wrap: wrap;
+    .button1 button {
+        width: 100%;
+    display: block;
+    object-fit: cover;
     }
 
     .discover .h1 {

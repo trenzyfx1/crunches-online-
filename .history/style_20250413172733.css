@@ -771,8 +771,8 @@ footer a {
         margin-left: 30px;
     }
 
-    .button1 {
-        flex-wrap: wrap;
+    .button1 button {
+        
     }
 
     .discover .h1 {

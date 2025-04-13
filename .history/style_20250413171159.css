@@ -79,13 +79,13 @@ nav {
     transition: transform 0.3s ease;
 }
 
-a:hover {
+ a:hover {
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 
-.mobile-header li:hover {
+ .mobile-header li:hover {
     transform: scale(1.02);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
@@ -402,7 +402,7 @@ button:hover {
     width: 100%;
     display: block;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .section5 {
@@ -640,7 +640,7 @@ footer a {
         gap: 10px;
     }
 
-    .mobile-header .order-now1 {
+     .mobile-header .order-now1 {
         display: flex;
         justify-content: center;
     }
@@ -656,7 +656,7 @@ footer a {
     }
 
     .phone1 {
-        margin-top: 150px;
+       margin-top: 150px; 
     }
 
     .section3 .h1-1 {
@@ -743,12 +743,7 @@ footer a {
     }
 
     .mobile-header .order-now1 {
-        margin-right: 10px;
-    }
-
-
-    .section1 h1 {
-        font-size: 15vw !important;
+       margin-right: 10px;
     }
 
 
@@ -771,10 +766,6 @@ footer a {
         margin-left: 30px;
     }
 
-    .button1 {
-        flex-wrap: wrap;
-    }
-
     .discover .h1 {
         font-size: 40px;
     }
@@ -784,7 +775,7 @@ footer a {
     }
 
     .phone1 {
-        display: none;
+        margin: 0;
     }
 
     .phone {
@@ -812,15 +803,6 @@ footer a {
         display: flex;
     }
 
-    .email {
-        display: none;
-    }
-
-    .food-section, .food-section img {
-        width: 100%;
-        display: block;
-        object-fit: cover;
-    }
 
 
     .section4 {
