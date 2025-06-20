@@ -559,15 +559,7 @@ footer a {
     justify-content: center;
 }
 
-.footer-bottom {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 1rem;
-    padding: 1rem;
-}
+
 
 .mobile-header .menu-icon .line {
     width: 30px;

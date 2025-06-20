@@ -566,7 +566,7 @@ footer a {
     align-items: center;
     max-width: 1200px;
     margin: 1rem;
-    padding: 1rem;
+    padding: 1rem 20px 0;
 }
 
 .mobile-header .menu-icon .line {
